@@ -40,8 +40,8 @@ body {
   max-width: 56rem;
   width: 100%;
   flex-direction: column;
-  border-top: 0.08rem solid #515151;
-  border-bottom: 0.08rem solid #515151;
+  border-top: 0.0625rem solid #515151;
+  border-bottom: 0.0625rem solid #515151;
   cursor: pointer;
   color: #ffffff;
   transition: all .3s;
@@ -80,13 +80,13 @@ body {
 
 .tab__content:active {
   color: #ffffff;
-  opacity: 0.65;
+  opacity: 0.7;
   transition: all .3s;
 }
 
 .tab__content:active .tab__mem .tab__icon{
   color: #ffffff;
-  opacity: 0.65;
+  opacity: 0.7;
   transition: all .3s;
 }
 
