@@ -47,6 +47,10 @@ body {
   transition: all .3s;
 }
 
+.bayan:hover .tab {
+  color: #71ABFF;
+}
+
 .tab__text{
   font-size: 1rem;
 }
@@ -55,6 +59,10 @@ body {
   color: transparent;
   font-size: 2rem;
   transition: all .3s;
+}
+
+.bayan:hover .tab .tab__icon{
+  color: #71ABFF;
 }
 
 .tab__radio {
@@ -117,6 +125,16 @@ body {
 }
 
 .tab__radio:checked + .tab__content .tab__image {
+  margin-top: 1rem;
+  max-width: 56rem;
+  transition: all .3s;
+}
+
+.tab__content:hover .tab__icon {
+  transform: rotate(45deg);
+}
+
+.tab__content:hover .tab__image{
   margin-top: 1rem;
   max-width: 56rem;
   transition: all .3s;
